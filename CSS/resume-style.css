@@ -72,14 +72,15 @@ h1 {
     justify-content: space-between;
     align-items: flex-start;
     max-width: 1000px;
-    margin: 20px;      
-    padding: 20px 20px 10px; 
+    margin: 20px auto;              /* อยู่ตรงกลางแนวนอน */
+    padding: 20px 20px 10px;
     border-top: 1px solid #ccc;
+    gap: 40px;                      /* เพิ่มระยะระหว่าง label กับ content */
   }
-
-.label-box {
-    width: 55%;
-}
+  
+  .label-box {
+    width: 50%;
+  }
 
 .label-box h2 {
     font-size: 1.75em;
