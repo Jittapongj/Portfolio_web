@@ -73,11 +73,9 @@ h1 {
     align-items: flex-start;
     max-width: 1000px;
     margin: 20px auto;
-    /* อยู่ตรงกลางแนวนอน */
     padding: 20px 20px 10px;
     border-top: 1px solid #ccc;
     gap: 40px;
-    /* เพิ่มระยะระหว่าง label กับ content */
 }
 
 .label-box {
@@ -99,7 +97,7 @@ h1 {
 
 .item {
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .item-date {
@@ -187,12 +185,18 @@ footer {
 
     .section .row {
         flex-direction: column;
-        align-items: center;
+        align-items: stretch;
+        text-align: center;
+    }
+
+    .label-box,
+    .content-box {
+        width: 100%;
     }
 
     .label-box h2 {
-        text-align: center;
-        margin-bottom: 15px;
+        text-align: left;
+        margin-left: 50px;
     }
 
     .content-box {
@@ -202,9 +206,15 @@ footer {
 
     .item {
         flex-direction: column;
+        align-items: left;
+        text-align: left;
+        padding-left: 80px;
     }
 
     .item-date {
         width: 100%;
+        text-align: left;
     }
+
+
 }
