@@ -166,7 +166,7 @@ footer {
     }
 
     h2 {
-        margin-left: 50px;
+        margin-left: 20px;
     }
 
     .item {
@@ -174,7 +174,7 @@ footer {
         justify-content: flex-start;
         align-items: center;
         text-align: left;
-        padding-left: 80px;
+        padding-left: 50px;
 
     }
 
