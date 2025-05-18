@@ -13,6 +13,8 @@ body {
 }
 
 header {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,7 +83,7 @@ nav a {
 
 .content-info {
     max-width: 600px;
-    text-align: left;
+    text-align: justify;
 }
 
 .content-info h1 {
@@ -100,6 +102,7 @@ nav a {
     font-size: 10pt;
     line-height: 1.6;
     margin-bottom: 20px;
+    text-indent: 30px;
 }
 
 .actions {
@@ -174,7 +177,6 @@ footer {
     color: #fff;
 }
 
-
 /* Responsive */
 @media (max-width: 768px) {
 
@@ -200,6 +202,11 @@ footer {
     .content-info {
         width: 100%;
         text-align: center;
+        
+    }
+
+    .content-info p {
+        text-align: justify;
     }
 
     .actions {
