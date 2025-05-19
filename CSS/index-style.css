@@ -30,17 +30,17 @@ header {
     align-items: baseline;
 }
 
+.logo p {
+    font-size: 0.9em;
+    color: #888;
+    margin-left: 10px;
+}
+
 .logo a {
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
     color: #000;
-}
-
-.logo p {
-    font-size: 0.9em;
-    color: #888;
-    margin-left: 10px;
 }
 
 nav ul {
