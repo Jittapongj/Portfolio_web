@@ -191,6 +191,7 @@ footer {
         flex-direction: column;
         align-items: stretch;
         text-align: center;
+        gap: 10px;
     }
 
     .label-box,
@@ -218,6 +219,10 @@ footer {
         align-items: left;
         text-align: left;
         padding-left: 50px;
+    }
+
+    .item-title{
+        margin: 0;
     }
 
     .item-date {

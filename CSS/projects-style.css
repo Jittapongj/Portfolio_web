@@ -73,8 +73,8 @@ h1 {
 
 .section {
     flex-grow: 1;
-    width: 80%;
-    margin: 0 auto 60px;
+    width: 90%;
+    margin: 0 auto 30px;
     padding: 0 20px;
     justify-content: center;
     align-items: center;
@@ -172,6 +172,12 @@ footer {
         text-align: center;
         gap: 10px;
     }
+    
+    .footer-info{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
 
     .item {
         flex-direction: column;
@@ -187,6 +193,7 @@ footer {
     }
 
     .section {
+        width: 90%;
         padding: 0 10px;
     }
 }
