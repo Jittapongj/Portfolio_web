@@ -24,42 +24,41 @@ header {
     border-bottom: 1px solid #ddd;
 }
 
-
 .logo {
     display: flex;
     align-items: baseline;
+
+    p {
+        font-size: 0.9em;
+        color: #888;
+        margin-left: 10px;
+    }
+
+    a {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-decoration: none;
+        color: #000;
+    }
 }
 
-.logo p {
-    font-size: 0.9em;
-    color: #888;
-    margin-left: 10px;
-}
+nav {
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
 
-.logo a {
-    font-size: 1.5em;
-    font-weight: bold;
-    text-decoration: none;
-    color: #000;
-}
+    a {
+        text-decoration: none;
+        color: #555;
+        font-weight: 500;
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #555;
-    font-weight: 500;
-}
-
-nav a.active,
-nav a:hover {
-    color: #000;
+        &.active,
+        &:hover {
+            color: #000;
+        }
+    }
 }
 
 .content {
@@ -91,25 +90,25 @@ nav a:hover {
 .content-info {
     max-width: 600px;
     text-align: justify;
-}
 
-.content-info h1 {
-    font-size: 28pt;
-    margin-bottom: 10px;
-    color: #222;
-}
+    h1 {
+        font-size: 28pt;
+        margin-bottom: 10px;
+        color: #222;
+    }
 
-.content-info h3 {
-    margin-bottom: 10px;
-    color: #444;
-}
+    h3 {
+        margin-bottom: 10px;
+        color: #444;
+    }
 
-.content-info p {
-    color: #555;
-    font-size: 10pt;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    text-indent: 30px;
+    p {
+        color: #555;
+        font-size: 10pt;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        text-indent: 30px;
+    }
 }
 
 .actions {
@@ -209,7 +208,7 @@ footer {
     .content-info {
         width: 100%;
         text-align: center;
-        
+
     }
 
     .content-info p {

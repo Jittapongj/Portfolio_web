@@ -27,36 +27,38 @@ header {
 .logo {
     display: flex;
     align-items: baseline;
+
+    p {
+        font-size: 0.9em;
+        color: #888;
+        margin-left: 10px;
+    }
+
+    a {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-decoration: none;
+        color: #000;
+    }
 }
 
-.logo a {
-    font-size: 1.5em;
-    font-weight: bold;
-    text-decoration: none;
-    color: #000;
-}
+nav {
+    ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
 
-.logo p {
-    font-size: 0.9em;
-    color: #888;
-    margin-left: 10px;
-}
+    a {
+        text-decoration: none;
+        color: #555;
+        font-weight: 500;
 
-nav ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #555;
-    font-weight: 500;
-}
-
-nav a.active,
-nav a:hover {
-    color: #000;
+        &.active,
+        &:hover {
+            color: #000;
+        }
+    }
 }
 
 main {
